@@ -1,7 +1,7 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-# Pobierz dane S&P 500 za kwiecień 2025
+# Pobierz Dane S&P 500 za kwiecień 2025
 sp500 = yf.download('^GSPC', start='2025-04-01', end='2025-05-01')
 
 # Początkowa kwota inwestycji
